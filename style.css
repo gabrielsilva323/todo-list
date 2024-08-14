@@ -1,0 +1,76 @@
+*{
+    background-color: black;
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+header input  {
+    border:inset;
+}
+
+header img {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+}
+
+header button {
+    border: none;
+    border-radius: 100%;
+}
+
+header button:hover {
+    cursor:pointer ;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: 10rem;
+    color: white
+}
+
+.atv {
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 25rem;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+
+.botoes img{
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+}
+
+.botoes button{
+    border: none;
+    border-radius: 10rem;
+}
+
+.botoes button:hover {
+    cursor:pointer ;
+}

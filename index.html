@@ -3,26 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Jacquard+12&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>To-Do-List</title>
 </head>
 <body>
-    <section class="informacoes">
-        <form action="">
-            <div class="todo-list">
-                <label for="todo-list">todo-list</label>
-                <div>
-                     <input type="text" name="todo-list" id="todo-list" placeholder="0">
-                </div>
+    <header>
+        <h1> To-Do-list/Lista De Compras 
+        </h1>
+
+        <div id="input">
+            <input type="text" id="inserir">
+            <button>
+                <img src="./imagens/adicionar.png" alt="sinal de mais">
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="atv">
+            <input type="checkbox">
+            <p>comprar o boneco do Mike Wazowski</p>
+            <div class="botoes">
+                <button>
+                    <img src="./imagens/lapis.webp" alt="lapis">
+                </button>
+                <button>
+                    <img src="./imagens/lixo.png" alt="lixo">
+                </button>
             </div>
-                
-           <div class="gorjeta">
-              <label>coisas para comprar</label>
-              <div>
-                <input type="button" value="arroz">
-                <input type="button" value="leite">
-                <input type="button" value="açucar">
-                <input type="button" value="feijão"> 
-              </div>
-    </section>
+        </div>
+    
+        <div class="atv">
+            <input type="checkbox">
+            <p>comprar a pixar</p>
+            <div class="botoes">
+                <button>
+                    <img src="./imagens/lapis.webp" alt="lapis">
+                </button>
+                <button>
+                    <img src="./imagens/lixo.png" alt="lixo">
+                </button>
+            </div>
+        </div>
+        <div class="atv">
+            <input type="checkbox">
+            <p>comprar a marvel e melhorar os filmes e series dela</p>
+            <div class="botoes">
+                <button>
+                    <img src="./imagens/lapis.webp" alt="lapis">
+                </button>
+                <button>
+                    <img src="./imagens/lixo.png" alt="lixo">
+                </button>
+            </div>
+        </div>
+
+        <div class="atv">
+            <input type="checkbox">
+            <p>comprar a Nasa</p>
+            <div class="botoes">
+                <button>
+                    <img src="./imagens/lapis.webp" alt="lapis">
+                </button>
+                <button>
+                    <img src="./imagens/lixo.png" alt="lixo">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <img src="./imagens/Monsters-Inc.-Simbolo.png" alt="logo do monstros s.a">
 </body>
 </html>
